@@ -1,0 +1,22 @@
+ul
+  margin: 0
+  padding: 0
+  list-style: none
+  text-decoration: none
+input:focus,
+a:focus,
+button:focus
+  outline: none
+a:hover
+  text-decoration: none
+
+@font-face
+  font-family: 'opensans_regular'
+  src: url('../fonts/opensans_regular/fonts/opensans_regular.eot')
+  src: url('../fonts/opensans_regular/fonts/opensans_regular.eot') format('embedded-opentype'),url('../fonts/opensans_regular/fonts/opensans_regular.woff2') format('woff2'),url('../fonts/opensans_regular/fonts/opensans_regular.woff') format('woff'), url('../fonts/opensans_regular/fonts/opensans_regular.ttf') format('truetype'),url('../fonts/opensans_regular/fonts/opensans_regular.svg#opensans_regular') format('svg')
+
+@mixin border-radius($radius)
+  -webkit-border-radius: $radius
+  -moz-border-radius: $radius
+  -ms-border-radius: $radius
+  border-radius: $radius
